@@ -9,6 +9,8 @@
 </head>
 <body>
     <h1 class="r1">Это главная страница сайта ex1.loc</h1>
+
+    <div class="j1">Сегодня: <?php echo date("d.m.Y")?></div>
 </body>
 </html>
 

@@ -1,5 +1,8 @@
 version: '3'
 
+networks:
+  internal:
+
 services:
   nginx:
     image: nginx:1.21.0-alpine
@@ -10,3 +13,19 @@ services:
        - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
        - ./web:/var/www
        - ./data/logs:/var/log/nginx/
+    depends_on:
+      - php
+    networks:
+      - internal
+  php:
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    container_name: web-300621-php
+    volumes:
+      - ./web:/var/www
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+    ports:
+      - "9000:9000"
+    networks:
+      - internal

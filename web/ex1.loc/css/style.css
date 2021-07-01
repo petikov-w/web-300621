@@ -1,9 +1,20 @@
 body {
     width: 70%;
     margin: auto;
-
 }
 
 .r1 {
     color: rgba(240, 9, 9, 0.8);
+    margin-bottom: 20px;
+}
+
+.j1 {
+    color: #2448a8;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.j1:hover {
+    color: #0ac10a;
 }
