@@ -1,0 +1,76 @@
+2021/07/01 12:26:32 [notice] 1#1: using the "epoll" event method
+2021/07/01 12:26:32 [notice] 1#1: nginx/1.21.0
+2021/07/01 12:26:32 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/07/01 12:26:32 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/01 12:26:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/01 12:26:32 [notice] 1#1: start worker processes
+2021/07/01 12:26:32 [notice] 1#1: start worker process 33
+2021/07/01 12:26:32 [notice] 1#1: start worker process 34
+2021/07/01 12:26:32 [notice] 1#1: start worker process 35
+2021/07/01 12:26:32 [notice] 1#1: start worker process 36
+2021/07/01 12:26:32 [notice] 1#1: start worker process 37
+2021/07/01 12:26:32 [notice] 1#1: start worker process 38
+2021/07/01 12:26:32 [notice] 1#1: start worker process 39
+2021/07/01 12:26:32 [notice] 1#1: start worker process 40
+2021/07/01 12:36:50 [error] 34#34: *19 open() "/var/www/ex1.loc/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" failed (2: No such file or directory), client: 172.22.0.1, server: ex1.loc, request: "GET /FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=US8Vrvhhv3x02rDnCWIhlfS9L4yQQSFTLJEYUIno2a1zCa7rrFLQvsN5yVHxWK5h HTTP/1.1", host: "ex1.loc", referrer: "http://ex1.loc/"
+2021/07/01 12:36:56 [error] 34#34: *19 open() "/var/www/ex1.loc/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" failed (2: No such file or directory), client: 172.22.0.1, server: ex1.loc, request: "GET /FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=US8Vrvhhv3x02rDnCWIhlfS9L4yQQSFTLJEYUIno2a1zCa7rrFLQvsN5yVHxWK5h HTTP/1.1", host: "ex1.loc", referrer: "http://ex1.loc/"
+2021/07/01 12:37:04 [error] 34#34: *19 open() "/var/www/ex1.loc/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: ex1.loc, request: "GET /favicon.ico HTTP/1.1", host: "ex1.loc", referrer: "http://ex1.loc/"
+2021/07/01 12:45:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/01 12:45:05 [notice] 33#33: gracefully shutting down
+2021/07/01 12:45:05 [notice] 34#34: gracefully shutting down
+2021/07/01 12:45:05 [notice] 35#35: gracefully shutting down
+2021/07/01 12:45:05 [notice] 35#35: exiting
+2021/07/01 12:45:05 [notice] 36#36: gracefully shutting down
+2021/07/01 12:45:05 [notice] 37#37: gracefully shutting down
+2021/07/01 12:45:05 [notice] 38#38: gracefully shutting down
+2021/07/01 12:45:05 [notice] 39#39: gracefully shutting down
+2021/07/01 12:45:05 [notice] 40#40: gracefully shutting down
+2021/07/01 12:45:05 [notice] 33#33: exiting
+2021/07/01 12:45:05 [notice] 34#34: exiting
+2021/07/01 12:45:05 [notice] 35#35: exit
+2021/07/01 12:45:05 [notice] 36#36: exiting
+2021/07/01 12:45:05 [notice] 37#37: exiting
+2021/07/01 12:45:05 [notice] 38#38: exiting
+2021/07/01 12:45:05 [notice] 39#39: exiting
+2021/07/01 12:45:05 [notice] 40#40: exiting
+2021/07/01 12:45:05 [notice] 33#33: exit
+2021/07/01 12:45:05 [notice] 34#34: exit
+2021/07/01 12:45:05 [notice] 36#36: exit
+2021/07/01 12:45:05 [notice] 37#37: exit
+2021/07/01 12:45:05 [notice] 38#38: exit
+2021/07/01 12:45:05 [notice] 39#39: exit
+2021/07/01 12:45:05 [notice] 40#40: exit
+2021/07/01 12:45:05 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/07/01 12:45:05 [notice] 1#1: worker process 35 exited with code 0
+2021/07/01 12:45:05 [notice] 1#1: worker process 36 exited with code 0
+2021/07/01 12:45:05 [notice] 1#1: worker process 37 exited with code 0
+2021/07/01 12:45:05 [notice] 1#1: worker process 39 exited with code 0
+2021/07/01 12:45:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 12:45:05 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/01 12:45:05 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/01 12:45:05 [notice] 1#1: worker process 33 exited with code 0
+2021/07/01 12:45:05 [notice] 1#1: worker process 38 exited with code 0
+2021/07/01 12:45:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 12:45:05 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/07/01 12:45:05 [notice] 1#1: worker process 34 exited with code 0
+2021/07/01 12:45:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 12:45:05 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2021/07/01 12:45:05 [notice] 1#1: worker process 40 exited with code 0
+2021/07/01 12:45:05 [notice] 1#1: exit
+2021/07/01 12:47:07 [notice] 1#1: using the "epoll" event method
+2021/07/01 12:47:07 [notice] 1#1: nginx/1.21.0
+2021/07/01 12:47:07 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/07/01 12:47:07 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/01 12:47:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/01 12:47:07 [notice] 1#1: start worker processes
+2021/07/01 12:47:07 [notice] 1#1: start worker process 25
+2021/07/01 12:47:07 [notice] 1#1: start worker process 26
+2021/07/01 12:47:07 [notice] 1#1: start worker process 27
+2021/07/01 12:47:07 [notice] 1#1: start worker process 28
+2021/07/01 12:47:07 [notice] 1#1: start worker process 29
+2021/07/01 12:47:07 [notice] 1#1: start worker process 30
+2021/07/01 12:47:07 [notice] 1#1: start worker process 31
+2021/07/01 12:47:07 [notice] 1#1: start worker process 32
+2021/07/01 12:47:18 [error] 25#25: *1 open() "/var/www/ex1.loc/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: ex1.loc, request: "GET /favicon.ico HTTP/1.1", host: "ex1.loc", referrer: "http://ex1.loc/"
+2021/07/01 12:47:23 [error] 25#25: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/01 12:50:01 [error] 25#25: *10 open() "/usr/share/nginx/html/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=lLUzp46Si_8_GeVO3BGqNHy46L9X835RqRQUB0qzewkQajHvDD0IMRaur7BH9SsD HTTP/1.1", host: "localhost", referrer: "http://localhost/"
