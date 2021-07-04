@@ -45,11 +45,28 @@ services:
       MYSQL_ROOT_PASSWORD: 12345
     networks:
       - internal
-  adminer:
-    image: adminer
-    container_name: web-300621-adminer-mysql
-    restart: always
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    #image: phpmyadmin/phpmyadmin:5.1.1-fpm-alpine
+    container_name: web-300621-phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=db-krox
+    depends_on:
+      - db-krox
+    #restart: always
     ports:
-      - 7500:8080
+      - 8070:80
     networks:
       - internal
+
+
+
+#  adminer:
+#    image: adminer
+#    container_name: web-300621-adminer-mysql
+#    restart: always
+#    ports:
+#      - 7500:8080
+#    networks:
+#      - internal
